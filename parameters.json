@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "chinanorth"
+        },
+        "virtualMachineName": {
+            "value": "nexus"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1"
+        },
+        "adminUsername": {
+            "value": "nexus"
+        },
+        "virtualNetworkName": {
+            "value": "dcsp-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "nexus122"
+        },
+        "networkSecurityGroupName": {
+            "value": "nexus-nsg"
+        },
+        "adminPassword": {
+            "value": "Shell-123456"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "nexus-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
